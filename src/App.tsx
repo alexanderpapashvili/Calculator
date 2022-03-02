@@ -8,8 +8,8 @@ const App: React.FC = () => {
     return (
         <Layout>
             <Routes>
-                <Route path='/Calculator' element={<Calculator />} />
-                <Route path='/Calculator/Quote' element={<Quote />} />
+                <Route path='/' element={<Calculator />} />
+                <Route path='/Quote' element={<Quote />} />
             </Routes>
         </Layout>
     )
