@@ -7,11 +7,11 @@ const Header: React.FC = () => {
     return (
         <Styled.Header>
             <Styled.HeaderWrapper>
-                <Styled.H1 onClick={() => navigate('/')}>Math Magicians</Styled.H1>
+                <Styled.H1 onClick={() => navigate('/Calculator')}>Math Magicians</Styled.H1>
 
                 <Styled.Nav>
-                    <Styled.NavItem onClick={() => navigate('/')}>Calculator</Styled.NavItem>
-                    <Styled.NavItem onClick={() => navigate('/Quote')}>Quote</Styled.NavItem>
+                    <Styled.NavItem onClick={() => navigate('/Calculator')}>Calculator</Styled.NavItem>
+                    <Styled.NavItem onClick={() => navigate('/Calculator/Quote')}>Quote</Styled.NavItem>
                     <Styled.NavItem>
                         <Styled.A
                             href='https://github.com/alexanderpapashvili/'
