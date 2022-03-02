@@ -1,11 +1,17 @@
-import * as Styled from './StyledApp'
-import Calculator from 'calculator/Calculator'
+import { Route, Routes } from 'react-router-dom'
+
+import Calculator from 'components/calculator/Calculator'
+import Layout from 'components/Layout'
+import Quote from 'components/Quote'
 
 const App: React.FC = () => {
     return (
-        <Styled.Container>
-            <Calculator />
-        </Styled.Container>
+        <Layout>
+            <Routes>
+                <Route path='/' element={<Calculator />} />
+                <Route path='/quote' element={<Quote />} />
+            </Routes>
+        </Layout>
     )
 }
 
