@@ -11,7 +11,7 @@ const Header: React.FC = () => {
 
                 <Styled.Nav>
                     <Styled.NavItem onClick={() => navigate('/')}>Calculator</Styled.NavItem>
-                    <Styled.NavItem onClick={() => navigate('/quote')}>Quote</Styled.NavItem>
+                    <Styled.NavItem onClick={() => navigate('/Quote')}>Quote</Styled.NavItem>
                     <Styled.NavItem>
                         <Styled.A
                             href='https://github.com/alexanderpapashvili/'
