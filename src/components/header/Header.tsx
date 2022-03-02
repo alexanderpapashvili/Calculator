@@ -10,7 +10,7 @@ const Header: React.FC = () => {
                 <Styled.H1 onClick={() => navigate('/')}>Math Magicians</Styled.H1>
 
                 <Styled.Nav>
-                    <Styled.NavItem onClick={() => navigate('')}>Calculator</Styled.NavItem>
+                    <Styled.NavItem onClick={() => navigate('/')}>Calculator</Styled.NavItem>
                     <Styled.NavItem onClick={() => navigate('/Quote')}>Quote</Styled.NavItem>
                     <Styled.NavItem>
                         <Styled.A
