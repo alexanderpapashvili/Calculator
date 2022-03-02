@@ -1,7 +1,7 @@
 import { useState, MouseEvent } from 'react'
 
 import * as Styled from './StyledCalculator'
-import Button from 'components/common/button/Button'
+import Button from 'components/common/Button'
 
 import { btnValues, ops } from 'utils/data'
 
